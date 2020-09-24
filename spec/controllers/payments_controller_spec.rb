@@ -95,6 +95,10 @@ RSpec.describe PaymentsController, type: :controller do
       it 'returns a "not found" response' do
         expect(response).to have_http_status(:not_found)
       end
+
+      it 'includes no loan information in the response body' do
+        expect(actual_body).to eq({})
+      end
     end
   end
 
