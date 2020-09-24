@@ -82,6 +82,9 @@ GEM
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (~> 0.13.0)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -145,6 +148,7 @@ GEM
     sqlite3 (1.4.2)
     thor (1.0.1)
     thread_safe (0.3.6)
+    timecop (0.9.1)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     websocket-driver (0.7.2)
@@ -161,12 +165,14 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   listen
   pry
+  pry-byebug
   rails (~> 5.2.4)
   rspec-rails
   sdoc (~> 0.4.0)
   spring
   sprockets (~> 3.0)
   sqlite3
+  timecop
   websocket-extensions (>= 0.1.5)
 
 BUNDLED WITH

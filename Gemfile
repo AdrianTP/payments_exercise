@@ -22,6 +22,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry'
   gem 'bootsnap'
+  gem 'pry-byebug'
+  gem 'timecop'
 end
 
 group :development do
